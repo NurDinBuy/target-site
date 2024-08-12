@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Barbershop Website</title>
+  <meta name="title" content="Barbershop Website">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+  <!-- - preload images-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Позвонить :</p>
+
+            <a href="tel:+996709813738" class="item-link">+996 709 813 738</a>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.instagram.com/nurdinbuy" target="_blank" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="index.html" class="logo">
+          <span class="span"></span>
+        </a>
+
+        <!-- <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#pricing" class="navbar-link" data-nav-link>Pricing</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#appointment" class="navbar-link" data-nav-link>Appointment</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav> -->
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <!-- <a href="#" class="btn has-before">
+          <span class="span">Appointment</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a> -->
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+      <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/marketing-digital.webp')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Эффективный маркетинг и таргет!</h1>
+
+          <p class="hero-text">
+            Мы хотим помочь вашему бизнесу, в вовлечении клиентов и заявок!
+          </p>
+
+          <a href="#services" class="btn has-before">
+            <span class="span">Наши услуги</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+      <section class="section service" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Наши услуги</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="analytics-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#appointment" class="card-title">Анализ ЦА</a>
+                </h3>
+
+                <p class="card-text">
+                  Мы определим вашу целевую аудиторию по демографическим, психографическим и поведенческим характеристикам.  
+                </p>
+
+                <a href="#appointment" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="document-attach-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#appointment" class="card-title">Стратегический план</a>
+                </h3>
+
+                <p class="card-text"> 
+                  Определим цели, задачи и способы достижения успешного продвижения бренда и продукта. Эффективное достижение маркетинговых целей.
+                </p>
+
+                <a href="#appointment" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="id-card-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#appointment" class="card-title">Составление РК</a>
+                </h3>
+
+                <p class="card-text">
+                  Разработка продающих РК - рекламных креативов, чтобы эффективно донести ключевые сообщения.
+                </p>
+
+                <a href="#appointment" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="file-tray-full-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#appointment" class="card-title">Полная отчетность</a>
+                </h3>
+
+                <p class="card-text">
+                  Детализированное представление результатов рекламных кампаний. Показ эффективности, как охват, конверсии и возвратности.
+                </p>
+
+                <a href="#appointment" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#appointment" class="card-title">Запуск таргета</a>
+                </h3>
+
+                <p class="card-text">
+                  Настройка и запуск рекламных кампаний в соц.сетях с целью точного достижения вашей ЦА, чтобы обеспечить достижения бизнес целей.
+                </p>
+
+                <a href="#appointment" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flash-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#appointment" class="card-title">Разработка УТП</a>
+                </h3>
+
+                <p class="card-text">
+                  Создание уникального и привлекательного предложения для ваших клиентов, которые помогут привлечь и удерживать попкупателей.
+                </p>
+
+                <a href="#appointment" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
+        style="background-image: url('./assets/images/pricing-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Awesome Pricing Plan</h2>
+
+          <p class="section-text text-center">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+          </p>
+
+          <div class="pricing-tab-container">
+
+            <ul class="tab-filter">
+
+              <li>
+                <button class="filter-btn active" data-filter-btn="all">
+                  <div class="btn-icon">
+                    <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">All Pricing</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="beauty-spa">
+                  <div class="btn-icon">
+                    <i class="flaticon-relax" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Beauty & Spa</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="body-treatments">
+                  <div class="btn-icon">
+                    <i class="flaticon-massage" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Body Treatments</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="face-washing">
+                  <div class="btn-icon">
+                    <i class="flaticon-spa" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Face Washing</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="meditations">
+                  <div class="btn-icon">
+                    <i class="flaticon-yoga" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Meditations</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="shaving">
+                  <div class="btn-icon">
+                    <i class="flaticon-razor-blade" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Shaving</p>
+                </button>
+              </li>
+
+            </ul>
+
+            <ul class="grid-list">
+
+              <li data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Cutting & Fitting</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="89">$89</data>
+
+                </div>
+              </li>
+
+              <li data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Shaving & Facial</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="45">$45</data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-3.jpg" width="90" height="90" alt="Hair Color & Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Color & Wash</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="35">$35</data>
+
+                </div>
+              </li>
+
+              <li data-filter="body-treatments">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-4.jpg" width="90" height="90" alt="Body Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Body Massage</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="56">$56</data>
+
+                </div>
+              </li>
+
+              <li data-filter="beauty-spa">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-5.jpg" width="90" height="90" alt="Beauty & Spa"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Beauty & Spa</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="27">$27</data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-6.jpg" width="90" height="90" alt="Facial & Face Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Facial & Face Wash</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="63">$63</data>
+
+                </div>
+              </li>
+
+              <li data-filter="body-treatments">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-7.jpg" width="90" height="90" alt="Backbone Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Backbone Massage</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="43">$43</data>
+
+                </div>
+              </li>
+
+              <li data-filter="meditations">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-8.jpg" width="90" height="90" alt="Meditation & Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Meditation & Massage</h3>
+
+                    <p class="card-text">Clean & simple 30-40 minutes</p>
+                  </div>
+
+                  <data class="card-price" value="74">$74</data>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <!-- <section class="section gallery" id="gallery" aria-label="photo gallery">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">Latest Photo Gallery</h2>
+
+              <p class="section-text">
+                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
+                suspendisse
+              </p>
+            </div>
+
+            <a href="#" class="btn has-before">
+              <span class="span">Explore More Gallery</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-1.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-2.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-3.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-4.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #APPOINTMENT
+      -->
+
+      <section class="section appoin" id="appointment" aria-label="appointment">
+        <div class="container">
+
+          <div class="appoin-card">
+
+            <figure class="card-banner img-holder">
+              <img src="./assets/images/contact-us.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <h2 class="h2 section-title">Оставить заявку</h2>
+
+              <p class="section-text">
+                Вы можете оставить нам ваши контактные данные и мы с вами свяжемся для консультации!
+              </p>
+
+              <form action="" class="appoin-form" id="form">
+
+                <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Имя" required class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <input type="text" name="phone" placeholder="Номер телефона" required class="input-field">
+                </div>
+
+                <button type="submit" class="form-btn">
+                  <span class="span">Оставить заявку</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </form>
+
+            </div>
+
+            <figure class="card-banner img-holder">
+              <img src="./assets/images/contact-us.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover2">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Связаться</p>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+996709813738" class="contact-link">+996 709 813 738</a>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:nurdinbuy@gmail.com" class="contact-link">nurdinbuy@gmail.com</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Telegram</p>
+            </li>
+
+            <li>
+              <li class="footer-list-item">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1105_3284)">
+                  <path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="url(#paint0_linear_1105_3284)"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24248 15.8309C11.9068 13.7988 15.0171 12.459 16.5733 11.8117C21.0167 9.96359 21.94 9.64255 22.5418 9.63195C22.6741 9.62962 22.9701 9.66242 23.1618 9.81797C23.3237 9.94931 23.3682 10.1267 23.3895 10.2513C23.4108 10.3758 23.4373 10.6595 23.4163 10.8811C23.1755 13.4111 22.1336 19.5507 21.6035 22.3843C21.3792 23.5833 20.9376 23.9853 20.5101 24.0247C19.5809 24.1102 18.8754 23.4106 17.9754 22.8207C16.5672 21.8976 15.7717 21.323 14.4048 20.4222C12.8251 19.3812 13.8491 18.8091 14.7494 17.874C14.985 17.6293 19.0789 13.9056 19.1581 13.5678C19.168 13.5256 19.1772 13.3681 19.0836 13.285C18.9901 13.2018 18.852 13.2302 18.7524 13.2529C18.6111 13.2849 16.3615 14.7718 12.0035 17.7136C11.3649 18.1521 10.7866 18.3657 10.2683 18.3545C9.69706 18.3422 8.59814 18.0315 7.78121 17.766C6.77921 17.4403 5.98284 17.2681 6.05218 16.7149C6.0883 16.4268 6.48507 16.1321 7.24248 15.8309Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <linearGradient id="paint0_linear_1105_3284" x1="16" y1="0" x2="16" y2="31.7627" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2AABEE"/>
+                  <stop offset="1" stop-color="#229ED9"/>
+                  </linearGradient>
+                  <clipPath id="clip0_1105_3284">
+                  <rect width="32" height="32" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  
+  
+                <a href="https://t.me/nurdinbuy16" target="_blank" class="contact-link">Nurdin</a>
+              </li>
+
+              <li>
+                <li class="footer-list-item">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1105_3284)">
+                    <path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="url(#paint0_linear_1105_3284)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24248 15.8309C11.9068 13.7988 15.0171 12.459 16.5733 11.8117C21.0167 9.96359 21.94 9.64255 22.5418 9.63195C22.6741 9.62962 22.9701 9.66242 23.1618 9.81797C23.3237 9.94931 23.3682 10.1267 23.3895 10.2513C23.4108 10.3758 23.4373 10.6595 23.4163 10.8811C23.1755 13.4111 22.1336 19.5507 21.6035 22.3843C21.3792 23.5833 20.9376 23.9853 20.5101 24.0247C19.5809 24.1102 18.8754 23.4106 17.9754 22.8207C16.5672 21.8976 15.7717 21.323 14.4048 20.4222C12.8251 19.3812 13.8491 18.8091 14.7494 17.874C14.985 17.6293 19.0789 13.9056 19.1581 13.5678C19.168 13.5256 19.1772 13.3681 19.0836 13.285C18.9901 13.2018 18.852 13.2302 18.7524 13.2529C18.6111 13.2849 16.3615 14.7718 12.0035 17.7136C11.3649 18.1521 10.7866 18.3657 10.2683 18.3545C9.69706 18.3422 8.59814 18.0315 7.78121 17.766C6.77921 17.4403 5.98284 17.2681 6.05218 16.7149C6.0883 16.4268 6.48507 16.1321 7.24248 15.8309Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <linearGradient id="paint0_linear_1105_3284" x1="16" y1="0" x2="16" y2="31.7627" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#2AABEE"/>
+                    <stop offset="1" stop-color="#229ED9"/>
+                    </linearGradient>
+                    <clipPath id="clip0_1105_3284">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+    
+                  <a href="https://t.me/bbmotorskg" target="_blank" class="contact-link">Bilal</a>
+                </li>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="assets/js/bot.js"></script>
+</body>
+
+</html>
